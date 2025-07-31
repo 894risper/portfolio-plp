@@ -164,3 +164,25 @@ body {
     object-fit: cover;
     mix-blend-mode: lighten;
 }
+.about {
+    background: #1f1f1f; /* darker background to separate from home */
+    color: white;
+    padding: 100px 9%;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3527F5;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
