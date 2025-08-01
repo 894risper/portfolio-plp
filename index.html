@@ -3,133 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Risper Atieno | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <div class="main">
-        <div class="navbar">
+        <!-- 🔹 Navbar -->
+        <nav class="navbar">
             <img src="ris.jpg" alt="logo" class="logo">
+
+            <!-- ✅ Hamburger Toggle -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
             <ul>
                 <li class="active"><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
-
                 <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
-        </div>
+        </nav>
 
+        <!-- 🏠 Home Section -->
         <section class="home" id="home">
-
-        <div class="home-info">
-            <h1>Risper Atieno</h1>
-            <h2>Software Engineer</h2>
-            <p>
-                I’m a passionate Software Engineer from Nyeri, Kenya, dedicated to creating 
-    innovative and user-friendly web solutions that address real-world challenges. 
-    With a strong focus on clean design and efficient functionality, I aim to deliver 
-    impactful digital experiences that make a difference.
-            </p>
-        
-        <div>
-            <a href="CV.pdf" class="btn"download>Download CV</a>
-            <div class="sci">
-                <a href="https://github.com/894risper/"><i class="fa-brands fa-square-github"></i></a>
-                <a href="https://www.linkedin.com/in/ochieng-risper-aa64a8298/"><i class="fa-brands fa-linkedin"></i></i></a>
-                
-
-            </div>
-        </div>
-        </div>
-        <div class="home-img">
-            <div class="img-box">
-                <div class="img-item">
-                    <img src="portfolio.png" alt="my profile picture" >
+            <div class="home-info">
+                <h1>Risper Atieno</h1>
+                <h2>Software Engineer</h2>
+                <p>
+                    I’m a Software Engineer from Nyeri, Kenya, passionate about building simple and impactful web solutions.
+                </p>
+            
+                <div>
+                    <a href="CV.pdf" class="btn" download>Download CV</a>
+                    <div class="sci">
+                        <a href="https://github.com/894risper/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ochieng-risper-aa64a8298/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
-
-        </div>
+            
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="portfolio.png" alt="my profile picture">
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="about" id="about">
-    <div class="about-content">
-        <h2>About Me</h2>
-        <p>
-            Hello! I’m Risper Atieno, a Software Engineer from Nyeri, Kenya. 
-            I specialize in building modern, efficient, and scalable web applications. 
-            With a strong foundation in coding, problem-solving, and design, 
-            I strive to create solutions that make life easier and more connected.
-        </p>
-        <p>
-            Beyond coding, I’m passionate about continuous learning, collaboration, 
-            and using technology as a tool to solve real-world problems.
-        </p>
-    </div>
-</section>
 
+        <!-- 🙋 About Section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I’m Risper Atieno, a Software Engineer from Nyeri, Kenya. 
+                    I specialize in building modern, efficient, and scalable web applications. 
+                    With a strong foundation in coding, problem-solving, and design, 
+                    I strive to create solutions that make life easier and more connected.
+                </p>
+                <p>
+                    Beyond coding, I’m passionate about continuous learning, collaboration, 
+                    and using technology as a tool to solve real-world problems.
+                </p>
+
+                <!-- 🔹 Interests Section -->
+                <div class="interests">
+                    <h3>My Interests</h3>
+                    <div class="interest-tags">
+                        <span><i class="fa-solid fa-code"></i> Open Source</span>
+                        <span><i class="fa-solid fa-paintbrush"></i> UI/UX Design</span>
+                        <span><i class="fa-solid fa-robot"></i> Machine Learning</span>
+                        <span><i class="fa-solid fa-people-group"></i> Community Building</span>
+                        <span><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🎓 Education Section -->
         <section class="education" id="education">
             <div class="education-content">
                 <h2>Education</h2>
                 <div class="edu-card">
                     <h3>Asumbi Girls High School</h3>
-                     <p>Kenya Certificate of Secondary Education</p>
-                      <span>2018 - 2021</span>
-
+                    <p>Kenya Certificate of Secondary Education</p>
+                    <span>2018 - 2021</span>
                 </div>
                 <div class="edu-card">
-            <h3>Dedan Kimathi University of Technology</h3>
-            <p>Bachelor of Science in Computer Science</p>
-            <span>2022 - Present</span>
-        </div>   
-
+                    <h3>Dedan Kimathi University of Technology</h3>
+                    <p>Bachelor of Science in Computer Science</p>
+                    <span>2022 - Present</span>
+                </div>   
             </div>
         </section>
+
+        <!-- 💻 Projects Section -->
         <section class="projects" id="projects">
-    <h2>My Projects</h2>
-    <div class="project-container">
-        <div class="project-card">
-            <img src="budget.jpg" alt="Budget App">
-            <h3>Budget App</h3>
-            <p>A smart budgeting tool that helps users track expenses, set goals, 
-            and save money with ease.</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-        <div class="project-card">
-            <img src="books.jpg" alt="Resource Sharing App">
-            <h3>ReShare</h3>
-            <p>A community-driven app that enables users to share learning 
-            resources and collaborate on projects.</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-    </div>
-</section>
-    
+            <h2>My Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="budget.jpg" alt="Budget App">
+                    <h3>Budget App</h3>
+                    <p>A smart budgeting tool that helps users track expenses, set goals, 
+                    and save money with ease.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="books.jpg" alt="Resource Sharing App">
+                    <h3>ReShare - Resource Sharing</h3>
+                    <p>A community-driven app that enables users to share learning 
+                    resources and collaborate on projects.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- 🖥️ Programming Languages -->
+            <div class="programming-languages">
+                <h3>Programming Languages & Technologies</h3>
+                <div class="languages-grid">
+                    <div class="language-item">
+                        <div class="language-icon js">
+                            <i class="fa-brands fa-js-square"></i>
+                        </div>
+                        <div class="language-name">JavaScript</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-icon html">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="language-name">HTML</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-icon css">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div class="language-name">CSS</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-icon python">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div class="language-name">Python</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-icon react">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div class="language-name">React</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-icon nextjs">
+                            <i class="fa-brands fa-node-js"></i>
+                        </div>
+                        <div class="language-name">Next.js</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-icon tailwind">
+                            <i class="fa-solid fa-wind"></i>
+                        </div>
+                        <div class="language-name">Tailwind CSS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 📬 Contact Section -->
         <section class="contact" id="contact">
-    <div class="contact-content">
-        <h2>Contact Me</h2>
-        <p>
-            I’d love to hear from you! Whether you have a question, a project, 
-            or just want to say hello, feel free to reach out.
-        </p>
-        
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+            <div class="contact-content">
+                <h2>Contact Me</h2>
+                <p>
+                    I’d love to hear from you! Whether you have a question, a project, 
+                    or just want to say hello, feel free to reach out.
+                </p>
+                
+                <form action="mailto:risperochieng8@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
 
-        <div class="contact-info">
-            <p><i class="fa-solid fa-envelope"></i> risperochieng8@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i> +254 791894370</p>
-            <p><i class="fa-solid fa-location-dot"></i> Nyeri, Kenya</p>
-        </div>
-    </div>
-</section>
-
-    
-
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-envelope"></i> risperochieng8@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +254 791 894 370</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Nyeri, Kenya</p>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
