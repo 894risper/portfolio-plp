@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risper Atieno | Portfolio</title>
+    <title>Risper Atieno Portfolio</title>
+     <meta name="description" content="Portfolio of Risper Atieno, a Software Engineer from Nyeri, Kenya. Passionate about building modern, efficient, and scalable web applications using JavaScript, React, Python, and Tailwind CSS. Explore my projects, skills, and journey in tech.">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <div class="main">
-        <!-- 🔹 Navbar -->
+    <header>
+        <!-- Navbar -->
         <nav class="navbar">
-            <img src="ris.jpg" alt="logo" class="logo">
+            <img src="ris.jpg" alt=" logo" class="logo">
 
-            <!-- ✅ Hamburger Toggle -->
+            <!--  Hamburger Toggle -->
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">
                 <i class="fa-solid fa-bars"></i>
@@ -27,8 +29,9 @@
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-
-        <!-- 🏠 Home Section -->
+        </header>
+<div class="main">
+        <!--  Home Section -->
         <section class="home" id="home">
             <div class="home-info">
                 <h1>Risper Atieno</h1>
@@ -55,7 +58,7 @@
             </div>
         </section>
 
-        <!-- 🙋 About Section -->
+        <!-- About Section -->
         <section class="about" id="about">
             <div class="about-content">
                 <h2>About Me</h2>
@@ -70,7 +73,7 @@
                     and using technology as a tool to solve real-world problems.
                 </p>
 
-                <!-- 🔹 Interests Section -->
+                <!-- Interests Section -->
                 <div class="interests">
                     <h3>My Interests</h3>
                     <div class="interest-tags">
@@ -84,7 +87,7 @@
             </div>
         </section>
 
-        <!-- 🎓 Education Section -->
+        <!-- Education Section -->
         <section class="education" id="education">
             <div class="education-content">
                 <h2>Education</h2>
@@ -101,27 +104,34 @@
             </div>
         </section>
 
-        <!-- 💻 Projects Section -->
+        <!-- Projects Section -->
         <section class="projects" id="projects">
             <h2>My Projects</h2>
             <div class="project-container">
                 <div class="project-card">
-                    <img src="budget.jpg" alt="Budget App">
+                    <img src="budget.jpg" alt="Budget App Picture">
                     <h3>Budget App</h3>
                     <p>A smart budgeting tool that helps users track expenses, set goals, 
                     and save money with ease.</p>
-                    <a href="#" class="btn">View Project</a>
+                    <a href="https://github.com/894risper/my-budget" class="btn">View Project</a>
                 </div>
                 <div class="project-card">
                     <img src="books.jpg" alt="Resource Sharing App">
                     <h3>ReShare - Resource Sharing</h3>
-                    <p>A community-driven app that enables users to share learning 
-                    resources and collaborate on projects.</p>
-                    <a href="#" class="btn">View Project</a>
+                    <p>A platform for sharing books, PDFs, and images, making learning resources easily accessible to students and educators.</p>
+
+                    <a href="https://github.com/894risper/Resource-Sharing" class="btn">View Project</a>
                 </div>
+                <div class="project-card">
+                    <img src="faqs.png" alt="FAQs Image">
+                    <h3>Frontend Mentor FAQs</h3>
+                    <p>Frontend Mentor challange of creating FAQs to gain hands in skills in html and css</p>
+                    <a href="https://github.com/894risper/FrontendDevelopment" class="btn">View Project</a>
+                </div>
+
             </div>
 
-            <!-- 🖥️ Programming Languages -->
+            <!-- Programming Languages -->
             <div class="programming-languages">
                 <h3>Programming Languages & Technologies</h3>
                 <div class="languages-grid">
@@ -171,7 +181,7 @@
             </div>
         </section>
 
-        <!-- 📬 Contact Section -->
+        <!-- Contact Section -->
         <section class="contact" id="contact">
             <div class="contact-content">
                 <h2>Contact Me</h2>
@@ -195,5 +205,16 @@
             </div>
         </section>
     </div>
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <p><i class="fa-solid fa-envelope"></i> risperochieng8@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +254 791 894 370</p>
+        <p><i class="fa-solid fa-location-dot"></i> Nyeri, Kenya</p>
+        <p>&copy; 2025 Risper Atieno. All rights reserved.</p>
+    </div>
+</footer>
+
+    
 </body>
 </html>
