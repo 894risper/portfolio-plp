@@ -9,7 +9,7 @@ Check out my personal portfolio showcasing my projects and skills.
 
 ##  Languages & Tools
 - HTML5  
--CSS
+- CSS
 
 
 ##  Screenshot
@@ -20,6 +20,6 @@ Check out my personal portfolio showcasing my projects and skills.
 ---
 
 ##  Contact
-📧 risperochieng8@gmail.com  
-📞 +254 791 894 370  
+ risperochieng8@gmail.com  
+ +254 791 894 370  
 [GitHub](https://github.com/894risper) | [LinkedIn](https://www.linkedin.com/in/ochieng-risper-aa64a8298/)
