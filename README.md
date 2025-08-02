@@ -12,10 +12,6 @@ Check out my personal portfolio showcasing my projects and skills.
 - CSS
 
 
-##  Screenshot
-<p align="center">
-  <img src="images/portfolioImage.png" alt="Portfolio Screenshot" width="700">
-</p>
 
 ---
 
